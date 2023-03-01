@@ -1,0 +1,317 @@
+01-Mar-2023 19:14:06.277 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.6
+01-Mar-2023 19:14:06.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 19 2023 13:23:52 UTC
+01-Mar-2023 19:14:06.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.6.0
+01-Mar-2023 19:14:06.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Linux
+01-Mar-2023 19:14:06.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     5.19.0-32-generic
+01-Mar-2023 19:14:06.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+01-Mar-2023 19:14:06.282 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /usr/lib/jvm/java-11-openjdk-amd64
+01-Mar-2023 19:14:06.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.18+10-post-Ubuntu-0ubuntu122.04
+01-Mar-2023 19:14:06.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Ubuntu
+01-Mar-2023 19:14:06.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/koseyun/tomcat/apache-tomcat-10.1.6
+01-Mar-2023 19:14:06.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/koseyun/tomcat/apache-tomcat-10.1.6
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/home/koseyun/tomcat/apache-tomcat-10.1.6/conf/logging.properties
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-Mar-2023 19:14:06.298 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-Mar-2023 19:14:06.299 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Mar-2023 19:14:06.299 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2023 19:14:06.299 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/home/koseyun/tomcat/apache-tomcat-10.1.6
+01-Mar-2023 19:14:06.299 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/home/koseyun/tomcat/apache-tomcat-10.1.6
+01-Mar-2023 19:14:06.299 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/home/koseyun/tomcat/apache-tomcat-10.1.6/temp
+01-Mar-2023 19:14:06.301 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+01-Mar-2023 19:14:06.589 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-Mar-2023 19:14:06.615 정보 [main] org.apache.catalina.startup.Catalina.load [571] 밀리초 내에 서버가 초기화되었습니다.
+01-Mar-2023 19:14:06.656 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-Mar-2023 19:14:06.656 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.6]
+01-Mar-2023 19:14:06.666 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/manager]을(를) 배치합니다.
+01-Mar-2023 19:14:07.024 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/manager]에 대한 배치가 [356] 밀리초에 완료되었습니다.
+01-Mar-2023 19:14:07.025 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/host-manager]을(를) 배치합니다.
+01-Mar-2023 19:14:07.048 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/host-manager]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+01-Mar-2023 19:14:07.048 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/docs]을(를) 배치합니다.
+01-Mar-2023 19:14:07.068 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/docs]에 대한 배치가 [20] 밀리초에 완료되었습니다.
+01-Mar-2023 19:14:07.068 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/ROOT]을(를) 배치합니다.
+01-Mar-2023 19:14:07.096 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/ROOT]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+01-Mar-2023 19:14:07.096 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/examples]을(를) 배치합니다.
+01-Mar-2023 19:14:07.317 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/examples]에 대한 배치가 [221] 밀리초에 완료되었습니다.
+01-Mar-2023 19:14:07.320 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-Mar-2023 19:14:07.338 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [722] 밀리초 내에 시작되었습니다.
+01-Mar-2023 19:22:07.435 정보 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 변경된 소스 [file:/home/koseyun/tomcat/apache-tomcat-10.1.6/conf/tomcat-users.xml](으)로부터 메모리 사용자 데이터베이스 [UserDatabase]을(를) 다시 로드합니다.
+01-Mar-2023 19:22:07.438 심각 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open 지정된 사용자 데이터베이스 [conf/tomcat-users.xml]을(를) 찾을 수 없었습니다.
+01-Mar-2023 19:22:07.940 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 []의 배치를 제거합니다.
+01-Mar-2023 19:22:07.951 경고 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1753)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1691)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1626)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:423)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5155)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1504)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1429)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1692)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1102)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+01-Mar-2023 19:22:08.469 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/examples]의 배치를 제거합니다.
+01-Mar-2023 19:22:08.481 경고 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [examples]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:249)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:271)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:210)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:219)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1154)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1751)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1691)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1626)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:423)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5155)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1504)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1429)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1692)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1102)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.nio.file.NoSuchFileException: /home/koseyun/tomcat/apache-tomcat-10.1.6/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+		at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1259)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:733)
+		at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:850)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:248)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:350)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+01-Mar-2023 19:22:08.990 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/host-manager]의 배치를 제거합니다.
+01-Mar-2023 19:22:08.996 경고 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [host-manager]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1753)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1691)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1626)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:423)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5155)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1504)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1429)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1692)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1102)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+01-Mar-2023 19:22:09.500 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/manager]의 배치를 제거합니다.
+01-Mar-2023 19:22:09.504 경고 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [manager]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1753)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1691)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1626)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:423)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5155)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1504)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1429)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1692)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1102)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+01-Mar-2023 19:22:10.008 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/docs]의 배치를 제거합니다.
+01-Mar-2023 19:22:10.012 경고 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [docs]을(를) 위한 JDBC 드라이버의 등록을 제거하지 못했습니다.
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1753)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1691)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1626)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:423)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5155)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1504)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1429)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1692)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1102)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+01-Mar-2023 19:42:17.008 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.6
+01-Mar-2023 19:42:17.017 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 19 2023 13:23:52 UTC
+01-Mar-2023 19:42:17.017 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.6.0
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Linux
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     5.19.0-32-generic
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /usr/lib/jvm/java-11-openjdk-amd64
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.18+10-post-Ubuntu-0ubuntu122.04
+01-Mar-2023 19:42:17.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Ubuntu
+01-Mar-2023 19:42:17.019 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 19:42:17.019 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 19:42:17.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/home/koseyun/tomcat/spring-was/tomcat/conf/logging.properties
+01-Mar-2023 19:42:17.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Mar-2023 19:42:17.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+01-Mar-2023 19:42:17.031 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 19:42:17.032 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/home/koseyun/tomcat/spring-was/tomcat/temp
+01-Mar-2023 19:42:17.036 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+01-Mar-2023 19:42:17.317 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-Mar-2023 19:42:17.343 정보 [main] org.apache.catalina.startup.Catalina.load [592] 밀리초 내에 서버가 초기화되었습니다.
+01-Mar-2023 19:42:17.386 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-Mar-2023 19:42:17.387 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.6]
+01-Mar-2023 19:42:17.398 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/manager]을(를) 배치합니다.
+01-Mar-2023 19:42:17.747 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/manager]에 대한 배치가 [348] 밀리초에 완료되었습니다.
+01-Mar-2023 19:42:17.748 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/host-manager]을(를) 배치합니다.
+01-Mar-2023 19:42:17.771 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/host-manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+01-Mar-2023 19:42:17.771 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/docs]을(를) 배치합니다.
+01-Mar-2023 19:42:17.791 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/docs]에 대한 배치가 [20] 밀리초에 완료되었습니다.
+01-Mar-2023 19:42:17.792 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT]을(를) 배치합니다.
+01-Mar-2023 19:42:17.809 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT]에 대한 배치가 [17] 밀리초에 완료되었습니다.
+01-Mar-2023 19:42:17.810 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/examples]을(를) 배치합니다.
+01-Mar-2023 19:42:18.022 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/examples]에 대한 배치가 [212] 밀리초에 완료되었습니다.
+01-Mar-2023 19:42:18.026 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-Mar-2023 19:42:18.043 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [699] 밀리초 내에 시작되었습니다.
+./bin/catalina.sh: 1: eval: /usr/lib/jvm/java-11-openjdk-amd64/bin/java: not found
+01-Mar-2023 20:00:15.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.6
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 19 2023 13:23:52 UTC
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.6.0
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Linux
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     5.19.0-32-generic
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+01-Mar-2023 20:00:15.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /usr/lib/jvm/java-17-openjdk-amd64
+01-Mar-2023 20:00:15.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.6+10-Ubuntu-0ubuntu122.04
+01-Mar-2023 20:00:15.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Private Build
+01-Mar-2023 20:00:15.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:00:15.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:00:15.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/home/koseyun/tomcat/spring-was/tomcat/conf/logging.properties
+01-Mar-2023 20:00:15.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Mar-2023 20:00:15.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+01-Mar-2023 20:00:15.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Mar-2023 20:00:15.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Mar-2023 20:00:15.564 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:00:15.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/home/koseyun/tomcat/spring-was/tomcat/temp
+01-Mar-2023 20:00:15.566 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+01-Mar-2023 20:00:15.800 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-Mar-2023 20:00:15.822 정보 [main] org.apache.catalina.startup.Catalina.load [491] 밀리초 내에 서버가 초기화되었습니다.
+01-Mar-2023 20:00:15.859 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-Mar-2023 20:00:15.860 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.6]
+01-Mar-2023 20:00:15.868 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/manager]을(를) 배치합니다.
+01-Mar-2023 20:00:16.181 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/manager]에 대한 배치가 [311] 밀리초에 완료되었습니다.
+01-Mar-2023 20:00:16.182 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/host-manager]을(를) 배치합니다.
+01-Mar-2023 20:00:16.206 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/host-manager]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+01-Mar-2023 20:00:16.207 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/docs]을(를) 배치합니다.
+01-Mar-2023 20:00:16.228 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/docs]에 대한 배치가 [21] 밀리초에 완료되었습니다.
+01-Mar-2023 20:00:16.228 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT]을(를) 배치합니다.
+01-Mar-2023 20:00:16.247 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT]에 대한 배치가 [18] 밀리초에 완료되었습니다.
+01-Mar-2023 20:00:16.247 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/examples]을(를) 배치합니다.
+01-Mar-2023 20:00:16.481 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/home/koseyun/tomcat/spring-was/tomcat/webapps/examples]에 대한 배치가 [234] 밀리초에 완료되었습니다.
+01-Mar-2023 20:00:16.486 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-Mar-2023 20:00:16.497 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [674] 밀리초 내에 시작되었습니다.
+01-Mar-2023 20:21:08.138 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.6
+01-Mar-2023 20:21:08.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 19 2023 13:23:52 UTC
+01-Mar-2023 20:21:08.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.6.0
+01-Mar-2023 20:21:08.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Linux
+01-Mar-2023 20:21:08.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     5.19.0-32-generic
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /usr/lib/jvm/java-17-openjdk-amd64
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.6+10-Ubuntu-0ubuntu122.04
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Private Build
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:21:08.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:21:08.153 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/home/koseyun/tomcat/spring-was/tomcat/conf/logging.properties
+01-Mar-2023 20:21:08.153 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Mar-2023 20:21:08.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+01-Mar-2023 20:21:08.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Mar-2023 20:21:08.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Mar-2023 20:21:08.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-Mar-2023 20:21:08.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-Mar-2023 20:21:08.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Mar-2023 20:21:08.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2023 20:21:08.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:21:08.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/home/koseyun/tomcat/spring-was/tomcat
+01-Mar-2023 20:21:08.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/home/koseyun/tomcat/spring-was/tomcat/temp
+01-Mar-2023 20:21:08.157 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+01-Mar-2023 20:21:08.409 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-Mar-2023 20:21:08.432 정보 [main] org.apache.catalina.startup.Catalina.load [486] 밀리초 내에 서버가 초기화되었습니다.
+01-Mar-2023 20:21:08.467 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-Mar-2023 20:21:08.468 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.6]
+01-Mar-2023 20:21:08.485 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT.war]을(를) 배치합니다.
+01-Mar-2023 20:21:08.824 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-Mar-2023 20:21:08.875 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/home/koseyun/tomcat/spring-was/tomcat/webapps/ROOT.war]의 배치가 [389] 밀리초에 완료되었습니다.
+01-Mar-2023 20:21:08.878 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-Mar-2023 20:21:08.891 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [458] 밀리초 내에 시작되었습니다.
+testServlet Test
+01-Mar-2023 20:28:46.224 경고 [main] org.apache.catalina.core.StandardServer.await 유효하지 않은 셧다운 명령 []을(를) 받았습니다.
