@@ -4,8 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
-import org.springframework.core.type.AnnotationMetadata;
-import org.springframework.core.type.MethodMetadata;
 
 @Slf4j
 public class MemoryCondition implements Condition {

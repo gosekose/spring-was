@@ -19,6 +19,7 @@ class MemberRepositoryTest {
     @Transactional
     @Test
     public void memberTest() throws Exception {
+
         //given
         Member member = new Member("idA", "MemberA");
         memberRepository.initTable();
