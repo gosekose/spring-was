@@ -36,8 +36,8 @@ my:
     username: username
     password: password
     etc:
-      max-connection: 50
-      timeout: 20ms
+      max-connection: 1
+      timeout: 3500ms
       options: CACHE,ADMIN
 
 
